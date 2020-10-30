@@ -1,6 +1,6 @@
 {
   "name": "@validatecl/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "validatecl ESLint standard config for TypeScript.",
   "main": "index.js",
   "scripts": {
