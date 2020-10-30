@@ -1,0 +1,39 @@
+{
+  "name": "@validatecl/eslint-config",
+  "version": "1.0.0",
+  "description": "validatecl ESLint standard config for TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/validatecl/eslint-config.git"
+  },
+  "keywords": [
+    "validatecl",
+    "eslint",
+    "config",
+    "eslintconfig",
+    "typescript"
+  ],
+  "author": "validatecl <hi@validatecl.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/validatecl/eslint-config/issues"
+  },
+  "homepage": "https://github.com/validatecl/eslint-config#readme",
+  "peerDependencies": {
+    "typescript": "4",
+    "eslint": "7"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint-plugin-jsdoc": "^30.3.1",
+    "eslint-plugin-mocha": "^8.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-security": "^1.4.0"
+  }
+}
