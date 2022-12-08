@@ -1,6 +1,6 @@
 {
   "name": "@validatecl/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "validatecl ESLint standard config for TypeScript.",
   "main": "index.js",
   "scripts": {
@@ -25,15 +25,15 @@
   },
   "homepage": "https://github.com/validatecl/eslint-config#readme",
   "peerDependencies": {
-    "typescript": "4",
-    "eslint": "7"
+    "typescript": "4.9.4",
+    "eslint": "8.29.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.0.1",
-    "@typescript-eslint/parser": "^4.0.1",
-    "eslint-plugin-jsdoc": "^30.3.1",
-    "eslint-plugin-mocha": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "eslint-plugin-jsdoc": "^39.6.4",
+    "eslint-plugin-mocha": "^10.1.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-security": "^1.4.0"
+    "eslint-plugin-security": "^1.5.0"
   }
 }
